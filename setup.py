@@ -24,7 +24,7 @@ setup_args = dict(
 
     # About package
     name = 'KmerGenerator',
-    version = '0.0.3',
+    version = '0.0.4',
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=['k-mers', 'DNA-Sequences', "Biological-Sequences"],
@@ -34,7 +34,7 @@ setup_args = dict(
     include_package_data = True,
 
     # About author
-    author = 'Samuel Galva\~o Elias',
+    author = 'Samuel Galvão Elias',
     author_email = 'sgelias@outlook.com',
 
     # Language and Licence
