@@ -13,10 +13,7 @@ except ImportError:
     )
 
 
-REQUIRES = [
-    "argparse",
-    "itertools",
-]
+REQUIRES = []
 
 
 with open("README.md", "r") as readme_file:
