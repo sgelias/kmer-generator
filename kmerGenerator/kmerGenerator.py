@@ -1,5 +1,3 @@
-#!/usr/bin/python3.6
-
 import argparse
 import itertools
 import re
@@ -122,7 +120,7 @@ class KmerGenerator:
         Map kmers into sequence.
         """
 
-        kmer_set = []
+        kmer_set = {}
 
         match_objs = map(
             lambda case:
@@ -130,11 +128,9 @@ class KmerGenerator:
             self.__make_kmers(base_set, k)
         )
 
-        [
-            kmer_set.append({m[0]: m.__len__()})
-            for m in match_objs
-            if m.__len__() > 0
-        ]
+        for m in match_objs:
+            if m.__len__() > 0:
+                kmer_set[m[0]] = m.__len__()
 
         return kmer_set
 
