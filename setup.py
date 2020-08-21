@@ -33,11 +33,11 @@ setup_args = dict(
     keywords=['k-mers', 'DNA-Sequences', "Biological-Sequences"],
     url = 'https://github.com/sgelias/kmer-generator.git',
     packages = find_packages(),
-    package_dir={'kmerGenerator': 'kmerGenerator'},
+    package_dir={'KmerGenerator': 'kmerGenerator'},
     include_package_data = True,
 
     # About author
-    author = 'Samuel Galvão Elias',
+    author = 'Samuel Galva\~o Elias',
     author_email = 'sgelias@outlook.com',
 
     # Language and Licence
@@ -51,4 +51,4 @@ setup_args = dict(
 
 
 if __name__ == '__main__':
-    setup(**setup_args, install_requires=REQUIRES)
+    setup(install_requires=REQUIRES, **setup_args)

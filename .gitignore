@@ -1,2 +1,5 @@
 __pycache__/
 .history
+KmerGenerator.egg-info
+dist
+build

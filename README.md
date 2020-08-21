@@ -4,6 +4,13 @@ Get a kmer list given a single DNA or RNA sequence.
 ## Base sets
 Kmers can be generated using the standart four nucleotide codes A, C, T (or U), and G, and also all anbiguous codes of IUPAC convention (https://www.bioinformatics.org/sms/iupac.html).
 
+# Install
+```bash
+
+$ pip install KmerGenerator
+
+```
+
 # Usage
 Instance the class and store in a object.
 
@@ -23,6 +30,7 @@ kgenerator.base_set_descriptions()
 
 The output is:
 ```
+
 A => Adenine
 C => Cytosine
 G => Guanine
@@ -39,6 +47,7 @@ D => A or G or T
 H => A or C or T
 V => A or C or G
 N => any
+
 ```
 
 Note: To generate kmers with ambiguous IUPAC codes (R, Y, S, ...), create an instance of the class and set the ***base_set*** parameter.
