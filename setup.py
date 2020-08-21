@@ -24,13 +24,13 @@ setup_args = dict(
 
     # About package
     name = 'KmerGenerator',
-    version = '0.0.2',
+    version = '0.0.3',
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=['k-mers', 'DNA-Sequences', "Biological-Sequences"],
     url = 'https://github.com/sgelias/kmer-generator.git',
     packages = find_packages(),
-    package_dir={'KmerGenerator': 'kmerGenerator'},
+    package_dir={'KmerGenerator': 'KmerGenerator'},
     include_package_data = True,
 
     # About author
